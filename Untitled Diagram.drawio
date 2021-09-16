@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T12:01:50.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" version="15.2.7" etag="0OW0e-0KMpXfYQYFp_E2" type="github"><diagram id="H1KTRfNybfVi3wPZID5q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-16T14:16:00.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="5cqtEtaI50qXEhxXyKtR" version="15.2.7" type="github">
+  <diagram id="H1KTRfNybfVi3wPZID5q" name="Page-1">
+    <mxGraphModel dx="1718" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d6A7HCSoupsShqry8bTS-2" value="Nhân viên" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="d6A7HCSoupsShqry8bTS-5" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;mã nv (PK)&lt;/u&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;tên nv&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;email&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;địa chỉ&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;vai trò&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;tình trạng&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;mật khẩu&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=top;points=[];fillColor=none;strokeColor=none;rounded=0;horizontal=1;fontSize=16;" vertex="1" parent="d6A7HCSoupsShqry8bTS-2">
+          <mxGeometry y="30" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="d6A7HCSoupsShqry8bTS-6" value="Khách hàng" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry y="190" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="d6A7HCSoupsShqry8bTS-7" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;số điện thoại (PK)&lt;/u&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;tên khách hàng&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;địa chỉ&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;phái&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;mã nv (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=top;points=[];fillColor=none;strokeColor=none;rounded=0;horizontal=1;fontSize=16;" vertex="1" parent="d6A7HCSoupsShqry8bTS-6">
+          <mxGeometry y="30" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="d6A7HCSoupsShqry8bTS-9" value="sản phẩm" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="190" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="d6A7HCSoupsShqry8bTS-10" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;mã hàng (PK)&lt;/u&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;tên hàng&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;số lượng&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;đơn giá nhập&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;đơn giá xuất&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;ghi chú&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;hình ảnh&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;mã nv (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=top;points=[];fillColor=none;strokeColor=none;rounded=0;horizontal=1;fontSize=16;" vertex="1" parent="d6A7HCSoupsShqry8bTS-9">
+          <mxGeometry y="30" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="d6A7HCSoupsShqry8bTS-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;entryX=1.006;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.025;exitY=0.453;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="d6A7HCSoupsShqry8bTS-5" target="d6A7HCSoupsShqry8bTS-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="240" y="170" as="sourcePoint" />
+            <mxPoint x="310" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6A7HCSoupsShqry8bTS-24" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;entryX=1.006;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="d6A7HCSoupsShqry8bTS-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="535" y="300" as="sourcePoint" />
+            <mxPoint x="700" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
